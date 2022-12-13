@@ -68,13 +68,31 @@ main > div > h3 {
   margin-right: 5px;
 }
 
-main > div > img {
-  margin: 0px 5px;
+main > div > img#foto1 {
+  margin: 0px 3px;
 }
 
 
+main > div > img#foto2 {
+  margin: 0px 250px;
+}
 
-/* font-family: 'idroid';
-  src: url('fontes/idroid.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal; 
+footer > div#more {
+  background-color: #84e1ac7d;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.23);
+  margin: 10px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+footer > div#more > p#cabecalho {
+  background-color: #38ca79;
+}
+
+footer > div#credito {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 1px 0px;
+}
+ 
